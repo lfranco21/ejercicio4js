@@ -18,3 +18,9 @@ console.log(primera_letra);
 
 let ultima_letra = apellido.charAt(apellido.length-1)
 console.log(ultima_letra);
+
+let sin_espacios = estudiante.trim();
+console.log(sin_espacios);
+
+let booleana = estudiante.includes(nombre);
+console.log(booleana);
